@@ -1,0 +1,39 @@
+# Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# jupyter
+.ipynb_checkpoints/
+
+# editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# logs and experiment outputs
+logs/*.csv
+logs/*.log
+
+# models
+models/**/gensim_embeddings.npy
+models/**/gensim_vocab.npy
+models/**/*.model
+
+# plots
+figures/*.png
+figures/*.pdf
+
+# playwright
+playwright/.cache/
+.playwright/
+
+# temporary files
+*.tmp
+*.bak
+*.swp
